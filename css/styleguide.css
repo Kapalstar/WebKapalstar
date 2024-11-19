@@ -1,0 +1,94 @@
+:root{
+    --black: rgba(0, 0, 0, 1);
+    --midnight-blue: rgba(0, 51, 102, 1);
+    --licorice: rgba(20, 20, 20, 1);
+    --earie-black : rgba(24, 24, 24, 1);
+    --granite-gray: rgba(102, 102, 102, 1);
+    --silver-chalice: rgba(172, 171, 171, 1);
+    --alto: rgba(217, 217, 217, 1);
+    --rice-cake: rgba(255, 250, 240, 1);
+    --ivory: rgba(255, 255, 240, 1);
+    --white: rgba(255, 255, 255, 1);
+
+    --font-size-m: 14px;
+    --font-size-l: 18px;
+    --font-size-xl: 20px;
+    --font-size-xxl: 24px;
+    --font-size-xxxl: 30px;
+    --font-size-xxxxl: 40px;
+
+    --font-family-poppins: "Poppins";
+    --font-family-roboto: "Roboto";
+    
+}
+
+.poppins-normal-silver-chalice-18px{
+    color: var(--silver-chalice) !important;
+    font-family: var(--font-family-poppins)!important;
+    font-size: var(--font-size-l) !important;
+    font-weight: 400 !important;
+    font-style: normal !important;
+}
+.roboto-bold-licorice-40px{
+    color: var(--licorice);
+    font-family: (--font-family-roboto);
+    font-size: var(--font-size-xxxxl);
+    font-weight: 700;
+    font-style: normal;
+}
+.poppins-normal-granite-gray-20px{
+    color: var(--granite-gray);
+    font-family: var(--font-family-poppins);
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+}
+.poppins-normal-granite-gray-24px{
+    color: var(--granite-gray);
+    font-family: var(--font-family-poppins);
+    font-size: var(--font-size-xxl);
+    font-weight: 400;
+    font-style: normal;
+}
+.poppins-normal-white-20px{
+    color: var(--white);
+    font-family: var(--font-family-poppins);
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+}
+.poppins-bold-white-30px{
+    color: var(--white);
+    font-family: var(--font-family-poppins);
+    font-size: var(--font-size-xxxl);
+    font-weight: 700;
+    font-style: normal;
+}
+.poppins-bold-granite-gray-24px{
+    color: var(--granite-gray);
+    font-family: var(--font-family-poppins);
+    font-size: var(--font-size-xxl);
+    font-weight: 700;
+    font-style: normal;
+}
+.poppins-bold-black-30px{
+    color: var(--black);
+    font-family: var(--font-family-poppins);
+    font-size: var(--font-size-xxxl);
+    font-weight: 700;
+    font-style: normal;
+}
+.poppins-bold-rice-cake-18px{
+    color: var(--rice-cake);
+    font-family: var(--font-family-poppins);
+    font-size: var(--font-size-l);
+    font-weight: 700;
+    font-style: normal;
+}
+.poppins-normal-granite-gray-14px{
+    color: var(--granite-gray);
+    font-family: var(--font-family-poppins);
+    font-size: var(--font-size-m);
+    font-weight: 400;
+    font-style: normal;
+}
